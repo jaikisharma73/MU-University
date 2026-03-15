@@ -616,7 +616,7 @@ text-align: center;
     animation: autoBlurAnimation linear both;
     animation-timeline: view(70% auto);
 }
-@keyframes autoBlurAnimation {
+/* @keyframes autoBlurAnimation {
   0% {
     filter: blur(20px);
   }
@@ -633,10 +633,10 @@ text-align: center;
     opacity: 1;
     transform: translateY(0) scale(1);
   }
-}
+} */
 
 
-@keyframes text-appear {
+/* @keyframes text-appear {
   from {
     opacity: 0;
     transform: translateY(100px);
@@ -645,7 +645,7 @@ text-align: center;
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 
 .navigate{
     animation: slideDown 1s ease-in-out;
@@ -662,23 +662,23 @@ text-align: center;
 .text-box p{
     animation: slide 2s ease-in-out;
 }
-.campus h1,
+/* .campus h1,
 .course h1,
 .facilities h1,
 .testimonials h1,
 .slideRight1{
     animation: slide 2s ease-in-out;
     animation-timeline: view(50% auto);
-}
+} */
 
-.course .ino,
+/* .course .ino,
 .campus p,
 .facilities .imo,
 .testimonials .iko,
 .slideLeft1{
     animation: slideLeft 2s ease-in-out;
     animation-timeline: view(50% auto);
-}
+} */
 
 
 
@@ -718,7 +718,7 @@ text-align: center;
 
 
 /* Animations */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
@@ -726,7 +726,7 @@ text-align: center;
 @keyframes slideIn {
     from { transform: translateY(50px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
-}
+} */
 
 /* Responsive */
 @media screen and (max-width: 768px) {
