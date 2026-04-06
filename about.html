@@ -7,6 +7,8 @@
      <link rel="shortcut icon" href="assets/monadfav.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
@@ -20,9 +22,9 @@
     <div><ul class="navlist" id="navlist">
         <li><a href="index.html">Home</a></li>   
         <li><a href="about.html">About Us</a></li>
-        <li><a href="#">Academics</a></li>
+        <li><a href="academics.html">Academics</a></li>
         <li><a href="admission.html">Admission</a></li>
-        <li><a href="#">Placement</a></li>
+        <li><a href="placement.html">Placement</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="hamburger" id="hamburger">
@@ -32,19 +34,19 @@
             </div>
     </div>
 </nav>
-<h1>About <span> Us</span></h1>
+<h1 data-aos="fade-down">About <span> Us</span></h1>
 
 </section>
 <!-- ...........................about us............. -->
 <section class="about-us">
     <div class="row">
-            <div class="about-col slideRight1">
-                <h1>Academic Excellence and Innovation</h1>
-                <p>Monad University is dedicated to fostering academic excellence and innovation through transformative education and research. Our diverse programs are designed to equip students with the knowledge and skills needed to excel in a rapidly evolving world. With a focus on creativity, critical thinking, and technological advancements, we empower individuals to lead and inspire change. Our faculty, facilities, and global collaborations drive groundbreaking discoveries that address real-world challenges. At Monad University, we are shaping the future, one idea at a time.</p>
+            <div class="about-col" data-aos="fade-right">
+                <h1>Monad University: Academic Excellence</h1>
+                <p>Monad University, established by the UP State Govt. Act 23 of 2010 & U/S 2(f) of the U.G.C. Act 1956, stands as a prestigious institution in the heart of Pilkhuwa. Dedicated to fostering academic excellence, we blend innovation with transformative education. Our diverse programs equip students with critical knowledge and cutting-edge skills, empowering them to lead and inspire in a rapidly evolving world.</p>
                 <a href="" class="hero-btn red-btn">Explore Now</a>
 
             </div>
-            <div class="about-col slideLeft1">
+            <div class="about-col" data-aos="fade-left">
                 <img src="assets/aboutus.webp" alt="about pic">
 
             </div>
@@ -53,11 +55,11 @@
 </section>
 <section class="about2">
     <div class="row">
-        <div class="about-col2 slideRight1  ">
+        <div class="about-col2" data-aos="fade-right">
             <img src="assets/2rese.png" alt="about pic">
 
         </div>
-        <div class="about-col2 slideLeft1">
+        <div class="about-col2" data-aos="fade-left">
         <h1>Research and Societal Impact</h1>
         <p>Monad University is a catalyst for groundbreaking research and meaningful societal impact. Our dedicated faculty and students work together to address global challenges, from climate change to healthcare innovations. Through interdisciplinary collaboration and cutting-edge facilities, we drive solutions that make a difference in communities worldwide. Our research not only advances knowledge but also transforms industries and improves lives. We are committed to bridging the gap between academia and society, ensuring our work benefits the greater good. At Monad university, we turn ideas into action, shaping a better tomorrow.</p>
         <a href="" class="hero-btn red-btn">Explore Now</a>
@@ -68,14 +70,14 @@
 </section>
 <section class="aboutus3">
     <div class="row">
-            <div class="about-col3 slideRight1">
-                <h1>Student-Centered Learning</h1>as
+            <div class="about-col3" data-aos="fade-right">
+                <h1>Student-Centered Learning</h1>
                 <p>
                     Monad University is committed to a student-centered approach that puts learners at the heart of everything we do. Our dynamic programs are designed to foster critical thinking, creativity, and leadership skills, preparing students for success in an ever-changing world. We prioritize personalized learning experiences through small class sizes, mentorship, and hands-on opportunities. Our vibrant campus encourages collaboration, innovation, and personal growth, ensuring students feel supported every step of their journey. From academic resources to extracurricular activities, we provide a holistic environment that nurtures both intellect and well-being. At Monad University, every student’s voice matters, and their potential is our priority. Together, we empower tomorrow’s leaders</p>
                 <a href="" class="hero-btn red-btn">Explore Now</a>
 
             </div>
-            <div class="about-col3  slideLeft1">
+            <div class="about-col3" data-aos="fade-left">
                 <img src="assets/learning.jpg" alt="about pic">
 
             </div>
@@ -100,6 +102,7 @@
             </div>
             <p>Made With <i class="fa fa-heart-o"></i> by Jaiki Sharma All Right Reserved</p>
      </section>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <script src="app.js"></script>
 </body>
 </html>

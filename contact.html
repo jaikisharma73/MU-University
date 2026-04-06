@@ -8,6 +8,8 @@
      <link rel="shortcut icon" href="assets/monadfav.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link
       rel="stylesheet"
@@ -21,9 +23,9 @@
     <div><ul class="navlist">
         <li><a href="index.html">Home</a></li>   
         <li><a href="about.html">About Us</a></li>
-        <li><a href="#">Academics</a></li>
+        <li><a href="academics.html">Academics</a></li>
         <li><a href="admission.html">Admission</a></li>
-        <li><a href="#">Placement</a></li>
+        <li><a href="placement.html">Placement</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="hamburger" id="hamburger">
@@ -33,13 +35,13 @@
             </div>
     </div>
 </nav>
-<h1>Contact <span> Us</span></h1>
+<h1 data-aos="fade-down">Contact <span> Us</span></h1>
 
 </section>
 <!-- ...........................about us............. -->
-<section class="contact-us">
+<section class="contact-us" data-aos="fade-up">
     <div class="row">
-        <div class="contact-col">
+        <div class="contact-col" data-aos="fade-right">
             <div>
                 <i class="fa fa-home"></i>
                 <span>
@@ -73,7 +75,7 @@
         </div>
         
         
-        <div class="contact-col">
+        <div class="contact-col" data-aos="fade-left">
             <h3>Contact Form</h3>
             <form action="/post" method="post">
                 <input type="text" name="Name" placeholder="Enter Your Name" required>
@@ -89,7 +91,7 @@
         
         
     </section>
-    <section class="location">
+    <section class="location" data-aos="zoom-in">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.062460789832!2d77.69677543834382!3d28.720067841416256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c8efc453085e7%3A0x64998a6bedfa4aa5!2sMonad%20University!5e0!3m2!1sen!2sin!4v1737454741791!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        
     </section>
@@ -109,6 +111,7 @@
             </div>
             <p>Made With <i class="fa fa-heart-o"></i> by Jaiki Sharma All Right Reserved</p>
      </section>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <script src="app.js"></script>
 </body>
 </html>

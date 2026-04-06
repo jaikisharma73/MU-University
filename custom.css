@@ -1,0 +1,194 @@
+/* Custom Overrides for Premium Aesthetic */
+
+:root {
+    --primary: #ca1823;
+    --primary-dark: #a01019;
+    --secondary: #0f172a;
+    --bg-light: #f8fafc;
+    --text-main: #334155;
+    --text-muted: #64748b;
+    --card-bg: #ffffff;
+    --hover-shadow: 0 10px 25px -5px rgba(202, 24, 35, 0.2), 0 8px 10px -6px rgba(202, 24, 35, 0.1);
+}
+
+body {
+    color: var(--text-main);
+}
+
+/* Nav Improvements */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    padding: 15px 5%;
+}
+
+.nav-scrolled {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 10px 5%;
+}
+
+nav ul li a:hover {
+    color: var(--primary);
+}
+
+span, .text-box h1, .course h1, .campus h1, .facilities h1, .testimonials h1, .cta h1, .about-col h1, .about-col2 h1, .about-col3 h1, .footer h4 {
+    color: var(--primary);
+}
+
+/* Hero Button */
+.hero-btn:hover {
+    border: 1px solid var(--primary);
+    background: var(--primary);
+}
+
+/* Card Improvements */
+.courseoffer, .facilities-campus, .testimonials-col {
+    background: var(--card-bg);
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.courseoffer:hover, .facilities-campus:hover, .testimonials-col:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--hover-shadow);
+    border-color: var(--primary);
+}
+
+.courseoffer h3, .facilities-campus h3, .testimonials-col h3 {
+    color: var(--primary);
+}
+
+/* Text overrides */
+.campus p, .course p, .facilities p, .testimonials p, .footer p {
+    color: var(--text-main);
+}
+
+/* Icons */
+.layer:hover h3 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.fa {
+    color: var(--primary);
+}
+
+.red-btn {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.red-btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* AOS Tweaks */
+[data-aos] {
+    pointer-events: none;
+}
+[data-aos].aos-animate {
+    pointer-events: auto;
+}
+
+/* Placement Styles */
+.placement-hero {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assets/placement_hero.webp);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.stat-box {
+    flex-basis: 30%;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--hover-shadow);
+}
+
+.stat-box h2 {
+    color: var(--primary);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.stat-box p {
+    color: var(--text-main);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.recruiters-section {
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.recruiters-section h1 {
+    color: var(--primary);
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.recruiters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.recruiter-logo {
+    width: 120px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.recruiter-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Success Stories */
+.stories-section {
+    background: var(--bg-light);
+    padding: 60px 0;
+}
+
+.stories-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}

@@ -7,6 +7,8 @@
      <link rel="shortcut icon" href="assets/monadfav.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link
       rel="stylesheet"
@@ -20,9 +22,9 @@
     <div><ul class="navlist">
         <li><a href="index.html">Home</a></li>   
         <li><a href="about.html">About Us</a></li>
-        <li><a href="#">Academics</a></li>
+        <li><a href="academics.html">Academics</a></li>
         <li><a href="admission.html">Admission</a></li>
-        <li><a href="#">Placement</a></li>
+        <li><a href="placement.html">Placement</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="hamburger" id="hamburger">
@@ -32,33 +34,33 @@
             </div>
     </div>
 </nav>
-<h1>Our<span> Courses</span></h1>
+<h1 data-aos="fade-down">Our<span> Courses</span></h1>
 
 </section>
 <!-- ...........................courses............. -->
-<section class="course">
+<section class="course" data-aos="fade-up">
     <h1>Courses we offer</h1>
     <p>Using an advanced quality scoring algorithm and learning</p>
 
     <div class="row">
-        <div class="courseoffer">
+        <div class="courseoffer" data-aos="zoom-in" data-aos-delay="100">
                 <h3>Diploma</h3>
                 <p>Unlock your potential with our comprehensive intermediate courses in technology and innovation. Gain the skills and knowledge to excel in today’s fast-evolving digital world.</p>
         </div>
-        <div class="courseoffer">
+        <div class="courseoffer" data-aos="zoom-in" data-aos-delay="200">
                 <h3>Degree</h3>
                 <p>Our degree program offers comprehensive training in cutting-edge technologies, equipping students with the skills to excel in the dynamic tech industry. With a focus on real-world applications, it prepares you for leadership roles in innovation and development.</p>
         </div>
-        <div class="courseoffer">
+        <div class="courseoffer" data-aos="zoom-in" data-aos-delay="300">
                 <h3>Post Graduate</h3>
                 <p>Our postgraduate course provides advanced expertise in emerging technologies and research-driven solutions. It empowers students to lead innovative projects and make a significant impact in the rapidly evolving tech landscape.</p>
         </div>
 
     </div>
 </section>
-<section class="blog">
+<section class="blog" data-aos="fade-up">
     <div class="row">
-        <div class="blog-left">
+        <div class="blog-left" data-aos="fade-right">
                 <img src="assets/certificate.avif">
                 <h2>Our Certification For 2025</h2>
                 <p>Our Certification for 2025 is a globally recognized program designed to prepare professionals for the demands of a rapidly evolving world. It combines cutting-edge knowledge, practical skills, and flexible learning options to empower individuals in technology, leadership, and sustainability. Developed with input from industry experts, the certification emphasizes real-world applications, ethical practices, and career growth. With customizable pathways, digital credentials, and lifelong learning resources, it’s a trusted investment for advancing careers in 2025 and beyond.</p><br>
@@ -82,7 +84,7 @@
                 </div>
                 </div>
                 
-            <div class="blog-right">
+            <div class="blog-right" data-aos="fade-left">
                 <h3>Post Categories</h3>
                 <div>
                     <span>School Of Engineering</span>
@@ -148,6 +150,7 @@
      </section>
 
 
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
      <script src="app.js"></script>
 </body>
 </html>
